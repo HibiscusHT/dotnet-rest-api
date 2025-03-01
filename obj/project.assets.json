@@ -1214,19 +1214,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MyBook 14 Plus\\.nuget\\packages\\": {}
+    "/home/vscode/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotnet\\first-dotnet\\first-dotnet.csproj",
+      "projectUniqueName": "/workspaces/dotnet-rest-api/first-dotnet.csproj",
       "projectName": "first-dotnet",
-      "projectPath": "E:\\dotnet\\first-dotnet\\first-dotnet.csproj",
-      "packagesPath": "C:\\Users\\MyBook 14 Plus\\.nuget\\packages\\",
-      "outputPath": "E:\\dotnet\\first-dotnet\\obj\\",
+      "projectPath": "/workspaces/dotnet-rest-api/first-dotnet.csproj",
+      "packagesPath": "/home/vscode/.nuget/packages/",
+      "outputPath": "/workspaces/dotnet-rest-api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MyBook 14 Plus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1244,6 +1244,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1294,7 +1299,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
